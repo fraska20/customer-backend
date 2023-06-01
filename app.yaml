@@ -3,6 +3,6 @@ service: backend
 
 env_variables:
   HOST: 34.101.137.197
-  USER: root
-  PASSWORD:
+  USER: notes 
+  PASSWORD: notes
   DB: movie

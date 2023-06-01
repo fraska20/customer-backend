@@ -4,12 +4,8 @@
   "description": "Simple Example of nodejs to create rest call using MySQL",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "Rachel",
-    "email": "restapi2example@gmail.com",
-    "url": "http://www.resapiexample.com/"
   },
   "license": "MIT",
   "dependencies": {

@@ -36,6 +36,11 @@ var server = app.listen(3000,  "127.0.0.1", function () {
 
 });
 
+// define a root route
+app.get('/', (req, res) => {
+  res.send("Welcome Customer Service");
+});
+
 //rest api to get all customers
 app.get('/customer', function (req, res) {
    connection.query('select * from customer', function (error, results, fields) {
