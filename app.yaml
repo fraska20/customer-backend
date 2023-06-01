@@ -1,0 +1,8 @@
+runtime: nodejs16
+service: backend
+
+env_variables:
+  HOST: 34.101.137.197
+  USER: root
+  PASSWORD:
+  DB: movie
