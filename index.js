@@ -27,14 +27,10 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 //end body-parser configuration
 
 //create app server
-var server = app.listen(process.env.SERVER_PORT,  "127.0.0.1", function () {
-
-  var host = server.address().address
-  var port = server.address().port
-
-  console.log("Example app listening at http://%s:%s", host, port)
-
+app.listen(process.env.SERVER_PORT, () => {
+  console.log("server started");
 });
+
 
 // define a root route
 app.get('/', (req, res) => {
